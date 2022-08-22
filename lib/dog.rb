@@ -1,6 +1,7 @@
 class Dog
+# Setter function
 def name=(name)
-@name=name
+    @name=name
 end
 
 def name
@@ -8,14 +9,15 @@ def name
 end
 
 
-
 def breed=(breed)
     @breed=breed
 end
 
-def breed 
+def breed
     @breed
 end
+
 end
-fido =Dog.new
-fido.name = "Fido"
+
+fido=Dog.new
+fido.name="Fido"
