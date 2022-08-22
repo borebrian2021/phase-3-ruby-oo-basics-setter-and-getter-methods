@@ -8,6 +8,7 @@ def name
     @name
 end
 
+@name="brian"
 
 def breed=(breed)
     @breed=breed
